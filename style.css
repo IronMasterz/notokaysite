@@ -1,9 +1,9 @@
-        body {
-            background-image: url("background.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-			margin: 0;
-        }
+body {
+    background-color: #CD3831;
+    margin: 0;
+    width: auto;
+    height: auto;
+}
 
         .center {
             display: block;
@@ -41,7 +41,9 @@
         .header {
             padding: 100px;
             text-align: center;
-            background: #1abc9c;
+            background-image: url(background.png);
+            background-repeat: no-repeat;
+            background-size: cover;
             color: white;
             font-size: 30px;
             width: auto;
@@ -58,21 +60,21 @@
         /*Header Buttons*/
 
         /* Style the tab buttons */
-        .tablink {
-            background-color: #555;
-            color: white;
-            float: left;
-            border: none;
-            outline: none;
-            cursor: pointer;
-            padding: 14px 16px;
-            font-size: 17px;
-            width: 25%;
-        }
+.tablink {
+    background-color: #E36A62;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
 
             /* Change background color of buttons on hover */
         .tablink:hover {
-            background-color: #777;
+            background-color: #f28980;
         }
 
         /* Set default styles for tab content */
