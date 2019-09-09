@@ -1,5 +1,7 @@
 body {
     background-color: #CD3831;
+    background-repeat: repeat;
+    background-size: cover;
     margin: 0;
     width: auto;
     height: auto;
