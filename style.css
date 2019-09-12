@@ -7,6 +7,10 @@ body {
     height: auto;
 }
 
+.open {
+  border-bottom: 6px white;
+}
+
         .center {
             display: block;
             margin-left: auto;
