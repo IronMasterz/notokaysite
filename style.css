@@ -51,6 +51,16 @@ body {
             width: auto;
         }
 
+.2header {
+            padding: 100px;
+            text-align: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+            font-size: 30px;
+            width: auto;
+        }
+
         iframe {
             display: block; /* iframes are inline by default */
             background: #000;
