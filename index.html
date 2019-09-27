@@ -39,20 +39,26 @@
     He also says a lot of stupid stuff and there are quotes to prove it. <img src="https://notokay.netlify.com/poster.png" border="1" class="img-fluid" style="display:block; float:right; margin:10px;" alt="quote poster">
     The most Not Okay can do in code is too much. He has too much power and it should be taken away from him. He has yet to trademark the words "Not Okay" and you should let him because otherwise you will
     just be wasting money. Seriously, dont trademark Not Okay before him. He has issues and needs that trademark. He spends his time inside programming and playing Minecraft, kind of like <a href="https://www.youtube.com/channel/UCtHaxi4GTYDpJgMSGy7AeSw">Michael Reeves</a>.</p>
-
-    <table align="center" border="1">
-        <tr>
-            <th>Name</th>
-            <th>Email</th>
-            <th>Phone</th>
-        </tr>
-        <tr>
-            <td>Dallas</td>
-            <td>dallas@notokay.tk</td>
-            <td>814-506-0190</td>
-        </tr>
-	    
-	    
-    </table>
+	
+<form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
 </div>
 </body>
