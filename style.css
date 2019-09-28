@@ -94,13 +94,13 @@ iframe {
     content: "";
     display: block;
     width: 0%;
-    padding-top: 20px;
+    paddint-top:20px;
     border-bottom: 5px solid white;
     transition:1s;
 }
 
 .tablink:hover:after {
-    width:17%;
+    width:10%;
 }
             /* Change background color of buttons on hover */
 .tablink:hover {
