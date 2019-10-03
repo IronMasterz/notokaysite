@@ -10,6 +10,11 @@ MOUSE.DOWN = 1;
 MOUSE.UP = 2;
 MOUSE.MOVE = 3;
 
+left = 37;
+up = 38;
+right = 39;
+down=40;
+
 // Constructor()
 //
 // Creates a new local player manager.
@@ -145,6 +150,14 @@ Player.prototype.onMouseEvent = function( x, y, type, rmb )
 		this.targetYaw = this.yawStart + ( x - this.dragStart.x ) / 200;
 
 		this.canvas.style.cursor = "move";
+	} if ( type == down ) {
+		this.dragStart = { x: x, y: y };
+		this.mouseDown = true;
+		this.yawStart = this.targetYaw = this.angles[1];
+		this.pitchStart = this.targetPitch = this.angles[0];
+	} else if ( type == up ) {
+		if ( Math.abs( this.dragStart.x - x ) + Math.abs( this.dragStart.y - y ) < 4 )	
+			this.doBlockAction( x, y, !rmb );
 	}
 }
 
