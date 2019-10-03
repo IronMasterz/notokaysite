@@ -10,10 +10,10 @@ MOUSE.DOWN = 1;
 MOUSE.UP = 2;
 MOUSE.MOVE = 3;
 
-left = 37;
-up = 38;
-right = 39;
-down=40;
+left = 74;
+up = 73;
+right = 76;
+down = 75;
 
 // Constructor()
 //
